@@ -1,0 +1,39 @@
+@media(max-width:600px) {
+    body{
+        background-color:rgb(0, 0, 0);
+
+    }
+    header h1 {
+        font-size: 12px;
+    }
+    section img {
+        width: 100%;
+    }
+}
+
+/*tablete*/
+
+@media(min-width:601px) and (max-width: 900px) {
+    section img {
+        width: 50%;
+    }
+    body {
+        background-color: rgb(54, 0, 192);
+    }    
+    }
+
+/* Estilo para tabela grandes (desktope)*/
+
+@media (min-width: 901px) {
+    section img {
+        width: 30%;
+    }
+    body {
+        background-color: rgb(181, 0, 0);
+    }
+}
+
+
+
+
+    
